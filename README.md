@@ -74,7 +74,8 @@ Construir uma API em Node.js puro (http) ou qualquer biblioteca HTTP (Express, F
 
 - [X] Entregar junto instruções claras de como rodar a API:
   - Instalação de dependências (`npm install`)
-  - Criação do banco de dados (`npm run seed`)
+  - Adicione o DATABASE_NAME no arquivo .env
+  - Criação do banco de dados. (`npm run seed`)
   - Execução do projeto (`npm start`)
   - Execução dos testes (`npm run test`)
   - Nota: Os endpoints foram trocados para /products e /clients para manter consistência de idioma. Caso isso não seja válido, por favor troque os nomes para /produtos e /clientes em index.js.
